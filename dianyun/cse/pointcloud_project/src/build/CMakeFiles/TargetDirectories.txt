@@ -1,0 +1,3 @@
+/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/pc_backend.dir
+/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/edit_cache.dir
+/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/rebuild_cache.dir

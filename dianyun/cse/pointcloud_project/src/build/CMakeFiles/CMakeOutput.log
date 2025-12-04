@@ -1,0 +1,330 @@
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b2f6c/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_b2f6c.dir/build.make CMakeFiles/cmTC_b2f6c.dir/build
+gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -fopenmp -v -fPIE -o CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: riscv64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b2f6c.dir/'
+ /usr/libexec/gcc/riscv64-linux-gnu/13/cc1 -quiet -v -imultilib . -imultiarch riscv64-linux-gnu -D_REENTRANT /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_b2f6c.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=spacemit-x60 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -version -fopenmp -fPIE -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccMuNTdO.s
+GNU C17 (Bianbu 13.2.0-23ubuntu4bb3) version 13.2.0 (riscv64-linux-gnu)
+	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed/riscv64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/../../../../riscv64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/riscv64-linux-gnu/13/include
+ /usr/local/include
+ /usr/include/riscv64-linux-gnu
+ /usr/include
+End of search list.
+Compiler executable checksum: dc04f60bb2eb189bf0bf9aecaf9fc598
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b2f6c.dir/'
+ as -v --traditional-format -fpic -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o /tmp/ccMuNTdO.s
+GNU汇编版本 2.42 (riscv64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.42
+COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.'
+Linking C executable cmTC_b2f6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2f6c.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o -o cmTC_b2f6c  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper
+Target: riscv64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+Reading specs from /usr/lib/gcc/riscv64-linux-gnu/13/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b2f6c' '-v' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'cmTC_b2f6c.'
+ /usr/libexec/gcc/riscv64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFUEHpf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -hash-style=gnu --as-needed -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -z relro -o cmTC_b2f6c /lib/riscv64-linux-gnu/crt1.o /usr/lib/gcc/riscv64-linux-gnu/13/crti.o /usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o -L/usr/lib/gcc/riscv64-linux-gnu/13 -L/lib/riscv64-linux-gnu -L/usr/lib/riscv64-linux-gnu CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/riscv64-linux-gnu/13/crtend.o /usr/lib/gcc/riscv64-linux-gnu/13/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b2f6c' '-v' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'cmTC_b2f6c.'
+gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b2f6c/fast]
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b2f6c.dir/build.make CMakeFiles/cmTC_b2f6c.dir/build]
+  ignore line: [gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -fopenmp -v -fPIE -o CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: riscv64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b2f6c.dir/']
+  ignore line: [ /usr/libexec/gcc/riscv64-linux-gnu/13/cc1 -quiet -v -imultilib . -imultiarch riscv64-linux-gnu -D_REENTRANT /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_b2f6c.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=spacemit-x60 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -version -fopenmp -fPIE -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccMuNTdO.s]
+  ignore line: [GNU C17 (Bianbu 13.2.0-23ubuntu4bb3) version 13.2.0 (riscv64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed/riscv64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/../../../../riscv64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/riscv64-linux-gnu/13/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/riscv64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: dc04f60bb2eb189bf0bf9aecaf9fc598]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b2f6c.dir/']
+  ignore line: [ as -v --traditional-format -fpic -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o /tmp/ccMuNTdO.s]
+  ignore line: [GNU汇编版本 2.42 (riscv64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.42]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.']
+  ignore line: [Linking C executable cmTC_b2f6c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2f6c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o -o cmTC_b2f6c  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper]
+  ignore line: [Target: riscv64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/riscv64-linux-gnu/13/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b2f6c' '-v' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'cmTC_b2f6c.']
+  link line: [ /usr/libexec/gcc/riscv64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFUEHpf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -hash-style=gnu --as-needed -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -z relro -o cmTC_b2f6c /lib/riscv64-linux-gnu/crt1.o /usr/lib/gcc/riscv64-linux-gnu/13/crti.o /usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o -L/usr/lib/gcc/riscv64-linux-gnu/13 -L/lib/riscv64-linux-gnu -L/usr/lib/riscv64-linux-gnu CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/riscv64-linux-gnu/13/crtend.o /usr/lib/gcc/riscv64-linux-gnu/13/crtn.o]
+    arg [/usr/libexec/gcc/riscv64-linux-gnu/13/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFUEHpf.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-riscv64-lp64d.so.1] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b2f6c] ==> ignore
+    arg [-L/usr/lib/gcc/riscv64-linux-gnu/13] ==> dir [/usr/lib/gcc/riscv64-linux-gnu/13]
+    arg [-L/lib/riscv64-linux-gnu] ==> dir [/lib/riscv64-linux-gnu]
+    arg [-L/usr/lib/riscv64-linux-gnu] ==> dir [/usr/lib/riscv64-linux-gnu]
+    arg [CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+  collapse library dir [/usr/lib/gcc/riscv64-linux-gnu/13] ==> [/usr/lib/gcc/riscv64-linux-gnu/13]
+  collapse library dir [/lib/riscv64-linux-gnu] ==> [/lib/riscv64-linux-gnu]
+  collapse library dir [/usr/lib/riscv64-linux-gnu] ==> [/usr/lib/riscv64-linux-gnu]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit objs: []
+  implicit dirs: [/usr/lib/gcc/riscv64-linux-gnu/13;/lib/riscv64-linux-gnu;/usr/lib/riscv64-linux-gnu]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_808dd/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_808dd.dir/build.make CMakeFiles/cmTC_808dd.dir/build
+gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++   -fopenmp -v -std=gnu++14 -fPIE -o CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: riscv64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++14' '-fPIE' '-o' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_808dd.dir/'
+ /usr/libexec/gcc/riscv64-linux-gnu/13/cc1plus -quiet -v -imultilib . -imultiarch riscv64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_808dd.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=spacemit-x60 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -std=gnu++14 -version -fopenmp -fPIE -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccMTJLhq.s
+GNU C++14 (Bianbu 13.2.0-23ubuntu4bb3) version 13.2.0 (riscv64-linux-gnu)
+	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/riscv64-linux-gnu/c++/13"
+ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed/riscv64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/../../../../riscv64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/13
+ /usr/include/riscv64-linux-gnu/c++/13
+ /usr/include/c++/13/backward
+ /usr/lib/gcc/riscv64-linux-gnu/13/include
+ /usr/local/include
+ /usr/include/riscv64-linux-gnu
+ /usr/include
+End of search list.
+Compiler executable checksum: a9702e61dd1ab4cbdc11127228763c4e
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++14' '-fPIE' '-o' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_808dd.dir/'
+ as -v --traditional-format -fpic -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o /tmp/ccMTJLhq.s
+GNU汇编版本 2.42 (riscv64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.42
+COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++14' '-fPIE' '-o' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.'
+Linking CXX executable cmTC_808dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_808dd.dir/link.txt --verbose=1
+/usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o -o cmTC_808dd  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper
+Target: riscv64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+Reading specs from /usr/lib/gcc/riscv64-linux-gnu/13/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_808dd' '-v' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'cmTC_808dd.'
+ /usr/libexec/gcc/riscv64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7vN1Wy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -hash-style=gnu --as-needed -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -z relro -o cmTC_808dd /lib/riscv64-linux-gnu/crt1.o /usr/lib/gcc/riscv64-linux-gnu/13/crti.o /usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o -L/usr/lib/gcc/riscv64-linux-gnu/13 -L/lib/riscv64-linux-gnu -L/usr/lib/riscv64-linux-gnu CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/riscv64-linux-gnu/13/crtend.o /usr/lib/gcc/riscv64-linux-gnu/13/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_808dd' '-v' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'cmTC_808dd.'
+gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_808dd/fast]
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_808dd.dir/build.make CMakeFiles/cmTC_808dd.dir/build]
+  ignore line: [gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”]
+  ignore line: [Building CXX object CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++   -fopenmp -v -std=gnu++14 -fPIE -o CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: riscv64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++14' '-fPIE' '-o' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_808dd.dir/']
+  ignore line: [ /usr/libexec/gcc/riscv64-linux-gnu/13/cc1plus -quiet -v -imultilib . -imultiarch riscv64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_808dd.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=spacemit-x60 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -std=gnu++14 -version -fopenmp -fPIE -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccMTJLhq.s]
+  ignore line: [GNU C++14 (Bianbu 13.2.0-23ubuntu4bb3) version 13.2.0 (riscv64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/riscv64-linux-gnu/c++/13"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed/riscv64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/../../../../riscv64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/13]
+  ignore line: [ /usr/include/riscv64-linux-gnu/c++/13]
+  ignore line: [ /usr/include/c++/13/backward]
+  ignore line: [ /usr/lib/gcc/riscv64-linux-gnu/13/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/riscv64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: a9702e61dd1ab4cbdc11127228763c4e]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++14' '-fPIE' '-o' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_808dd.dir/']
+  ignore line: [ as -v --traditional-format -fpic -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o /tmp/ccMTJLhq.s]
+  ignore line: [GNU汇编版本 2.42 (riscv64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.42]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++14' '-fPIE' '-o' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.']
+  ignore line: [Linking CXX executable cmTC_808dd]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_808dd.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o -o cmTC_808dd  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper]
+  ignore line: [Target: riscv64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/riscv64-linux-gnu/13/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_808dd' '-v' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'cmTC_808dd.']
+  link line: [ /usr/libexec/gcc/riscv64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7vN1Wy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -hash-style=gnu --as-needed -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -z relro -o cmTC_808dd /lib/riscv64-linux-gnu/crt1.o /usr/lib/gcc/riscv64-linux-gnu/13/crti.o /usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o -L/usr/lib/gcc/riscv64-linux-gnu/13 -L/lib/riscv64-linux-gnu -L/usr/lib/riscv64-linux-gnu CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/riscv64-linux-gnu/13/crtend.o /usr/lib/gcc/riscv64-linux-gnu/13/crtn.o]
+    arg [/usr/libexec/gcc/riscv64-linux-gnu/13/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc7vN1Wy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-riscv64-lp64d.so.1] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_808dd] ==> ignore
+    arg [-L/usr/lib/gcc/riscv64-linux-gnu/13] ==> dir [/usr/lib/gcc/riscv64-linux-gnu/13]
+    arg [-L/lib/riscv64-linux-gnu] ==> dir [/lib/riscv64-linux-gnu]
+    arg [-L/usr/lib/riscv64-linux-gnu] ==> dir [/usr/lib/riscv64-linux-gnu]
+    arg [CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/usr/lib/gcc/riscv64-linux-gnu/13] ==> [/usr/lib/gcc/riscv64-linux-gnu/13]
+  collapse library dir [/lib/riscv64-linux-gnu] ==> [/lib/riscv64-linux-gnu]
+  collapse library dir [/usr/lib/riscv64-linux-gnu] ==> [/usr/lib/riscv64-linux-gnu]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit objs: []
+  implicit dirs: [/usr/lib/gcc/riscv64-linux-gnu/13;/lib/riscv64-linux-gnu;/usr/lib/riscv64-linux-gnu]
+  implicit fwks: []
+
+

@@ -1,0 +1,1188 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.6.63 - riscv64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-9GRMLY"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-9GRMLY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-9GRMLY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cfbbc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cfbbc.dir/build.make CMakeFiles/cmTC_cfbbc.dir/build
+        gmake[1]: Entering directory '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-9GRMLY'
+        Building C object CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: riscv64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_cfbbc.dir/'
+         /usr/libexec/gcc/riscv64-linux-gnu/13/cc1 -quiet -v -imultilib . -imultiarch riscv64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cfbbc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=spacemit-x60 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccYArZAB.s
+        GNU C17 (Bianbu 13.2.0-23ubuntu4bb3) version 13.2.0 (riscv64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/../../../../riscv64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/riscv64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/riscv64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: dc04f60bb2eb189bf0bf9aecaf9fc598
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_cfbbc.dir/'
+         as -v --traditional-format -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o /tmp/ccYArZAB.s
+        GNU assembler version 2.42 (riscv64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_cfbbc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfbbc.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o -o cmTC_cfbbc 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper
+        Target: riscv64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+        COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cfbbc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'cmTC_cfbbc.'
+         /usr/libexec/gcc/riscv64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbQqMBL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -hash-style=gnu --as-needed -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -z relro -o cmTC_cfbbc /lib/riscv64-linux-gnu/crt1.o /usr/lib/gcc/riscv64-linux-gnu/13/crti.o /usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o -L/usr/lib/gcc/riscv64-linux-gnu/13 -L/lib/riscv64-linux-gnu -L/usr/lib/riscv64-linux-gnu CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/riscv64-linux-gnu/13/crtend.o /usr/lib/gcc/riscv64-linux-gnu/13/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cfbbc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'cmTC_cfbbc.'
+        gmake[1]: Leaving directory '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-9GRMLY'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/riscv64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/riscv64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/riscv64-linux-gnu/13/include] ==> [/usr/lib/gcc/riscv64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/riscv64-linux-gnu] ==> [/usr/include/riscv64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/riscv64-linux-gnu/13/include;/usr/local/include;/usr/include/riscv64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-9GRMLY']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cfbbc/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_cfbbc.dir/build.make CMakeFiles/cmTC_cfbbc.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-9GRMLY']
+        ignore line: [Building C object CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: riscv64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_cfbbc.dir/']
+        ignore line: [ /usr/libexec/gcc/riscv64-linux-gnu/13/cc1 -quiet -v -imultilib . -imultiarch riscv64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cfbbc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=spacemit-x60 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccYArZAB.s]
+        ignore line: [GNU C17 (Bianbu 13.2.0-23ubuntu4bb3) version 13.2.0 (riscv64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed/riscv64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/../../../../riscv64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/riscv64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/riscv64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: dc04f60bb2eb189bf0bf9aecaf9fc598]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_cfbbc.dir/']
+        ignore line: [ as -v --traditional-format -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o /tmp/ccYArZAB.s]
+        ignore line: [GNU assembler version 2.42 (riscv64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_cfbbc]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfbbc.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o -o cmTC_cfbbc ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper]
+        ignore line: [Target: riscv64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cfbbc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'cmTC_cfbbc.']
+        link line: [ /usr/libexec/gcc/riscv64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbQqMBL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -hash-style=gnu --as-needed -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -z relro -o cmTC_cfbbc /lib/riscv64-linux-gnu/crt1.o /usr/lib/gcc/riscv64-linux-gnu/13/crti.o /usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o -L/usr/lib/gcc/riscv64-linux-gnu/13 -L/lib/riscv64-linux-gnu -L/usr/lib/riscv64-linux-gnu CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/riscv64-linux-gnu/13/crtend.o /usr/lib/gcc/riscv64-linux-gnu/13/crtn.o]
+          arg [/usr/libexec/gcc/riscv64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccbQqMBL.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-melf64lriscv] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-riscv64-lp64d.so.1] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_cfbbc] ==> ignore
+          arg [/lib/riscv64-linux-gnu/crt1.o] ==> obj [/lib/riscv64-linux-gnu/crt1.o]
+          arg [/usr/lib/gcc/riscv64-linux-gnu/13/crti.o] ==> obj [/usr/lib/gcc/riscv64-linux-gnu/13/crti.o]
+          arg [/usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o] ==> obj [/usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o]
+          arg [-L/usr/lib/gcc/riscv64-linux-gnu/13] ==> dir [/usr/lib/gcc/riscv64-linux-gnu/13]
+          arg [-L/lib/riscv64-linux-gnu] ==> dir [/lib/riscv64-linux-gnu]
+          arg [-L/usr/lib/riscv64-linux-gnu] ==> dir [/usr/lib/riscv64-linux-gnu]
+          arg [CMakeFiles/cmTC_cfbbc.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/riscv64-linux-gnu/13/crtend.o] ==> obj [/usr/lib/gcc/riscv64-linux-gnu/13/crtend.o]
+          arg [/usr/lib/gcc/riscv64-linux-gnu/13/crtn.o] ==> obj [/usr/lib/gcc/riscv64-linux-gnu/13/crtn.o]
+        collapse library dir [/usr/lib/gcc/riscv64-linux-gnu/13] ==> [/usr/lib/gcc/riscv64-linux-gnu/13]
+        collapse library dir [/lib/riscv64-linux-gnu] ==> [/lib/riscv64-linux-gnu]
+        collapse library dir [/usr/lib/riscv64-linux-gnu] ==> [/usr/lib/riscv64-linux-gnu]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/lib/riscv64-linux-gnu/crt1.o;/usr/lib/gcc/riscv64-linux-gnu/13/crti.o;/usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o;/usr/lib/gcc/riscv64-linux-gnu/13/crtend.o;/usr/lib/gcc/riscv64-linux-gnu/13/crtn.o]
+        implicit dirs: [/usr/lib/gcc/riscv64-linux-gnu/13;/lib/riscv64-linux-gnu;/usr/lib/riscv64-linux-gnu]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-svujb5"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-svujb5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-svujb5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0696d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0696d.dir/build.make CMakeFiles/cmTC_0696d.dir/build
+        gmake[1]: Entering directory '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-svujb5'
+        Building CXX object CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: riscv64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_0696d.dir/'
+         /usr/libexec/gcc/riscv64-linux-gnu/13/cc1plus -quiet -v -imultilib . -imultiarch riscv64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0696d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=spacemit-x60 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccKmXmK6.s
+        GNU C++17 (Bianbu 13.2.0-23ubuntu4bb3) version 13.2.0 (riscv64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/riscv64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/../../../../riscv64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/riscv64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/riscv64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/riscv64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: a9702e61dd1ab4cbdc11127228763c4e
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_0696d.dir/'
+         as -v --traditional-format -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccKmXmK6.s
+        GNU assembler version 2.42 (riscv64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_0696d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0696d.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0696d 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper
+        Target: riscv64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+        COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0696d' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'cmTC_0696d.'
+         /usr/libexec/gcc/riscv64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3rLadE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -hash-style=gnu --as-needed -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -z relro -o cmTC_0696d /lib/riscv64-linux-gnu/crt1.o /usr/lib/gcc/riscv64-linux-gnu/13/crti.o /usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o -L/usr/lib/gcc/riscv64-linux-gnu/13 -L/lib/riscv64-linux-gnu -L/usr/lib/riscv64-linux-gnu CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/riscv64-linux-gnu/13/crtend.o /usr/lib/gcc/riscv64-linux-gnu/13/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0696d' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'cmTC_0696d.'
+        gmake[1]: Leaving directory '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-svujb5'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/riscv64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/riscv64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/riscv64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/riscv64-linux-gnu/c++/13] ==> [/usr/include/riscv64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/riscv64-linux-gnu/13/include] ==> [/usr/lib/gcc/riscv64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/riscv64-linux-gnu] ==> [/usr/include/riscv64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/riscv64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/riscv64-linux-gnu/13/include;/usr/local/include;/usr/include/riscv64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-svujb5']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0696d/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0696d.dir/build.make CMakeFiles/cmTC_0696d.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-svujb5']
+        ignore line: [Building CXX object CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: riscv64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_0696d.dir/']
+        ignore line: [ /usr/libexec/gcc/riscv64-linux-gnu/13/cc1plus -quiet -v -imultilib . -imultiarch riscv64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0696d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=spacemit-x60 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccKmXmK6.s]
+        ignore line: [GNU C++17 (Bianbu 13.2.0-23ubuntu4bb3) version 13.2.0 (riscv64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/riscv64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed/riscv64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/../../../../riscv64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/riscv64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/riscv64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/riscv64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: a9702e61dd1ab4cbdc11127228763c4e]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_0696d.dir/']
+        ignore line: [ as -v --traditional-format -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccKmXmK6.s]
+        ignore line: [GNU assembler version 2.42 (riscv64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_0696d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0696d.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0696d ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper]
+        ignore line: [Target: riscv64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0696d' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-dumpdir' 'cmTC_0696d.']
+        link line: [ /usr/libexec/gcc/riscv64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3rLadE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -hash-style=gnu --as-needed -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -z relro -o cmTC_0696d /lib/riscv64-linux-gnu/crt1.o /usr/lib/gcc/riscv64-linux-gnu/13/crti.o /usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o -L/usr/lib/gcc/riscv64-linux-gnu/13 -L/lib/riscv64-linux-gnu -L/usr/lib/riscv64-linux-gnu CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/riscv64-linux-gnu/13/crtend.o /usr/lib/gcc/riscv64-linux-gnu/13/crtn.o]
+          arg [/usr/libexec/gcc/riscv64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc3rLadE.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-melf64lriscv] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-riscv64-lp64d.so.1] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0696d] ==> ignore
+          arg [/lib/riscv64-linux-gnu/crt1.o] ==> obj [/lib/riscv64-linux-gnu/crt1.o]
+          arg [/usr/lib/gcc/riscv64-linux-gnu/13/crti.o] ==> obj [/usr/lib/gcc/riscv64-linux-gnu/13/crti.o]
+          arg [/usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o] ==> obj [/usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o]
+          arg [-L/usr/lib/gcc/riscv64-linux-gnu/13] ==> dir [/usr/lib/gcc/riscv64-linux-gnu/13]
+          arg [-L/lib/riscv64-linux-gnu] ==> dir [/lib/riscv64-linux-gnu]
+          arg [-L/usr/lib/riscv64-linux-gnu] ==> dir [/usr/lib/riscv64-linux-gnu]
+          arg [CMakeFiles/cmTC_0696d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/riscv64-linux-gnu/13/crtend.o] ==> obj [/usr/lib/gcc/riscv64-linux-gnu/13/crtend.o]
+          arg [/usr/lib/gcc/riscv64-linux-gnu/13/crtn.o] ==> obj [/usr/lib/gcc/riscv64-linux-gnu/13/crtn.o]
+        collapse library dir [/usr/lib/gcc/riscv64-linux-gnu/13] ==> [/usr/lib/gcc/riscv64-linux-gnu/13]
+        collapse library dir [/lib/riscv64-linux-gnu] ==> [/lib/riscv64-linux-gnu]
+        collapse library dir [/usr/lib/riscv64-linux-gnu] ==> [/usr/lib/riscv64-linux-gnu]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib/riscv64-linux-gnu/crt1.o;/usr/lib/gcc/riscv64-linux-gnu/13/crti.o;/usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o;/usr/lib/gcc/riscv64-linux-gnu/13/crtend.o;/usr/lib/gcc/riscv64-linux-gnu/13/crtn.o]
+        implicit dirs: [/usr/lib/gcc/riscv64-linux-gnu/13;/lib/riscv64-linux-gnu;/usr/lib/riscv64-linux-gnu]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:206 (try_compile)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:451 (_OPENMP_GET_FLAGS)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:335 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b2f6c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b2f6c.dir/build.make CMakeFiles/cmTC_b2f6c.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o
+        /usr/bin/cc   -fopenmp -v -fPIE -o CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: riscv64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b2f6c.dir/'
+         /usr/libexec/gcc/riscv64-linux-gnu/13/cc1 -quiet -v -imultilib . -imultiarch riscv64-linux-gnu -D_REENTRANT /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_b2f6c.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=spacemit-x60 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -version -fopenmp -fPIE -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccMuNTdO.s
+        GNU C17 (Bianbu 13.2.0-23ubuntu4bb3) version 13.2.0 (riscv64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/../../../../riscv64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/riscv64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/riscv64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: dc04f60bb2eb189bf0bf9aecaf9fc598
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b2f6c.dir/'
+         as -v --traditional-format -fpic -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o /tmp/ccMuNTdO.s
+        GNU汇编版本 2.42 (riscv64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fPIE' '-o' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.'
+        Linking C executable cmTC_b2f6c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2f6c.dir/link.txt --verbose=1
+        /usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o -o cmTC_b2f6c  -v 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper
+        Target: riscv64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+        COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+        Reading specs from /usr/lib/gcc/riscv64-linux-gnu/13/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b2f6c' '-v' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'cmTC_b2f6c.'
+         /usr/libexec/gcc/riscv64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFUEHpf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -hash-style=gnu --as-needed -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -z relro -o cmTC_b2f6c /lib/riscv64-linux-gnu/crt1.o /usr/lib/gcc/riscv64-linux-gnu/13/crti.o /usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o -L/usr/lib/gcc/riscv64-linux-gnu/13 -L/lib/riscv64-linux-gnu -L/usr/lib/riscv64-linux-gnu CMakeFiles/cmTC_b2f6c.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/riscv64-linux-gnu/13/crtend.o /usr/lib/gcc/riscv64-linux-gnu/13/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b2f6c' '-v' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'cmTC_b2f6c.'
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:206 (try_compile)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:451 (_OPENMP_GET_FLAGS)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:335 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_808dd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_808dd.dir/build.make CMakeFiles/cmTC_808dd.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”
+        Building CXX object CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -fopenmp -v -std=gnu++14 -fPIE -o CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: riscv64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++14' '-fPIE' '-o' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_808dd.dir/'
+         /usr/libexec/gcc/riscv64-linux-gnu/13/cc1plus -quiet -v -imultilib . -imultiarch riscv64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_808dd.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=spacemit-x60 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -std=gnu++14 -version -fopenmp -fPIE -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccMTJLhq.s
+        GNU C++14 (Bianbu 13.2.0-23ubuntu4bb3) version 13.2.0 (riscv64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/riscv64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/riscv64-linux-gnu/13/../../../../riscv64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/riscv64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/riscv64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/riscv64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: a9702e61dd1ab4cbdc11127228763c4e
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++14' '-fPIE' '-o' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_808dd.dir/'
+         as -v --traditional-format -fpic -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o /tmp/ccMTJLhq.s
+        GNU汇编版本 2.42 (riscv64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++14' '-fPIE' '-o' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.'
+        Linking CXX executable cmTC_808dd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_808dd.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o -o cmTC_808dd  -v 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper
+        Target: riscv64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Bianbu 13.2.0-23ubuntu4bb3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=riscv64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libitm --disable-libquadmath --disable-libquadmath-support --enable-plugin --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --disable-multilib --with-tune=spacemit-x60 --with-arch=rv64gc_zba_zbb_zbc_zbs_zicbom_zicbop_zicboz_zicond_zfh_zfhmin --with-abi=lp64d --enable-checking=release --build=riscv64-linux-gnu --host=riscv64-linux-gnu --target=riscv64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Bianbu 13.2.0-23ubuntu4bb3) 
+        COMPILER_PATH=/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/13/:/usr/libexec/gcc/riscv64-linux-gnu/:/usr/lib/gcc/riscv64-linux-gnu/13/:/usr/lib/gcc/riscv64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/riscv64-linux-gnu/13/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+        Reading specs from /usr/lib/gcc/riscv64-linux-gnu/13/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_808dd' '-v' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'cmTC_808dd.'
+         /usr/libexec/gcc/riscv64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/riscv64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/riscv64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7vN1Wy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -hash-style=gnu --as-needed -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -z relro -o cmTC_808dd /lib/riscv64-linux-gnu/crt1.o /usr/lib/gcc/riscv64-linux-gnu/13/crti.o /usr/lib/gcc/riscv64-linux-gnu/13/crtbegin.o -L/usr/lib/gcc/riscv64-linux-gnu/13 -L/lib/riscv64-linux-gnu -L/usr/lib/riscv64-linux-gnu CMakeFiles/cmTC_808dd.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/riscv64-linux-gnu/13/crtend.o /usr/lib/gcc/riscv64-linux-gnu/13/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_808dd' '-v' '-shared-libgcc' '-mtune=spacemit-x60' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicbom_zicbop_zicboz_zicond_zicsr_zifencei_zfh_zfhmin_zba_zbb_zbc_zbs' '-pthread' '-dumpdir' 'cmTC_808dd.'
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:386 (try_compile)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules/FindOpenMP.cmake:514 (_OPENMP_GET_SPEC_DATE)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:335 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1634c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1634c.dir/build.make CMakeFiles/cmTC_1634c.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”
+        Building CXX object CMakeFiles/cmTC_1634c.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++   -fopenmp -std=gnu++14 -fPIE -o CMakeFiles/cmTC_1634c.dir/OpenMPCheckVersion.cpp.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_1634c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1634c.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp CMakeFiles/cmTC_1634c.dir/OpenMPCheckVersion.cpp.o -o cmTC_1634c 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:162 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-jXK6Si"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-jXK6Si"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-jXK6Si'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8a16a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8a16a.dir/build.make CMakeFiles/cmTC_8a16a.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-jXK6Si”
+        Building C object CMakeFiles/cmTC_8a16a.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_8a16a.dir/src.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-jXK6Si/src.c
+        Linking C executable cmTC_8a16a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a16a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8a16a.dir/src.c.o -o cmTC_8a16a 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-jXK6Si”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-kgQuKk"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-kgQuKk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-kgQuKk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a6bee/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a6bee.dir/build.make CMakeFiles/cmTC_a6bee.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-kgQuKk”
+        Building C object CMakeFiles/cmTC_a6bee.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/riscv64-linux-gnu/openmpi/include -isystem /usr/lib/riscv64-linux-gnu/openmpi/include/openmpi -fPIE -o CMakeFiles/cmTC_a6bee.dir/test_mpi.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-kgQuKk/test_mpi.c
+        Linking C executable cmTC_a6bee
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6bee.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/riscv64-linux-gnu/openmpi/lib CMakeFiles/cmTC_a6bee.dir/test_mpi.c.o -o cmTC_a6bee  /usr/lib/riscv64-linux-gnu/libmpi.so 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-kgQuKk”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:682 (check_library_exists)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/riscv64-linux-gnu/libX11.so;/usr/lib/riscv64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-2l3l6r"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-2l3l6r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-2l3l6r'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8c7eb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8c7eb.dir/build.make CMakeFiles/cmTC_8c7eb.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-2l3l6r”
+        Building C object CMakeFiles/cmTC_8c7eb.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fPIE -o CMakeFiles/cmTC_8c7eb.dir/CheckFunctionExists.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-2l3l6r/CheckFunctionExists.c
+        Linking C executable cmTC_8c7eb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c7eb.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_8c7eb.dir/CheckFunctionExists.c.o -o cmTC_8c7eb  /usr/lib/riscv64-linux-gnu/libX11.so /usr/lib/riscv64-linux-gnu/libXext.so 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-2l3l6r”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:697 (check_function_exists)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WK44Dz"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WK44Dz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WK44Dz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b5316/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b5316.dir/build.make CMakeFiles/cmTC_b5316.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WK44Dz”
+        Building C object CMakeFiles/cmTC_b5316.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE -o CMakeFiles/cmTC_b5316.dir/CheckFunctionExists.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WK44Dz/CheckFunctionExists.c
+        Linking C executable cmTC_b5316
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5316.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_b5316.dir/CheckFunctionExists.c.o -o cmTC_b5316 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WK44Dz”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:711 (check_function_exists)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-5ldxR2"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-5ldxR2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-5ldxR2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c4f48/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c4f48.dir/build.make CMakeFiles/cmTC_c4f48.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-5ldxR2”
+        Building C object CMakeFiles/cmTC_c4f48.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -fPIE -o CMakeFiles/cmTC_c4f48.dir/CheckFunctionExists.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-5ldxR2/CheckFunctionExists.c
+        Linking C executable cmTC_c4f48
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4f48.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_c4f48.dir/CheckFunctionExists.c.o -o cmTC_c4f48 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-5ldxR2”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:720 (check_function_exists)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WTrH5H"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WTrH5H"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WTrH5H'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_907cb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_907cb.dir/build.make CMakeFiles/cmTC_907cb.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WTrH5H”
+        Building C object CMakeFiles/cmTC_907cb.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -fPIE -o CMakeFiles/cmTC_907cb.dir/CheckFunctionExists.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WTrH5H/CheckFunctionExists.c
+        Linking C executable cmTC_907cb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_907cb.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_907cb.dir/CheckFunctionExists.c.o -o cmTC_907cb 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-WTrH5H”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:729 (check_function_exists)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-43JlJQ"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-43JlJQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-43JlJQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_99cc5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_99cc5.dir/build.make CMakeFiles/cmTC_99cc5.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-43JlJQ”
+        Building C object CMakeFiles/cmTC_99cc5.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -fPIE -o CMakeFiles/cmTC_99cc5.dir/CheckFunctionExists.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-43JlJQ/CheckFunctionExists.c
+        Linking C executable cmTC_99cc5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99cc5.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_99cc5.dir/CheckFunctionExists.c.o -o cmTC_99cc5 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-43JlJQ”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:739 (check_library_exists)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-janKwB"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-janKwB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-janKwB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b8116/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b8116.dir/build.make CMakeFiles/cmTC_b8116.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-janKwB”
+        Building C object CMakeFiles/cmTC_b8116.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fPIE -o CMakeFiles/cmTC_b8116.dir/CheckFunctionExists.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-janKwB/CheckFunctionExists.c
+        Linking C executable cmTC_b8116
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8116.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_b8116.dir/CheckFunctionExists.c.o -o cmTC_b8116  -lICE 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-janKwB”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-QUqyam"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-QUqyam"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-QUqyam'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5b874/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5b874.dir/build.make CMakeFiles/cmTC_5b874.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-QUqyam”
+        Building C object CMakeFiles/cmTC_5b874.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/riscv64-linux-gnu/openmpi/include -isystem /usr/lib/riscv64-linux-gnu/openmpi/include/openmpi -fPIE -o CMakeFiles/cmTC_5b874.dir/test_mpi.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-QUqyam/test_mpi.c
+        Linking C executable cmTC_5b874
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b874.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/riscv64-linux-gnu/openmpi/lib CMakeFiles/cmTC_5b874.dir/test_mpi.c.o -o cmTC_5b874  /usr/lib/riscv64-linux-gnu/libmpi.so 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-QUqyam”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:569 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-H36Z4u"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-H36Z4u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-H36Z4u'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf4b7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bf4b7.dir/build.make CMakeFiles/cmTC_bf4b7.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-H36Z4u”
+        Building C object CMakeFiles/cmTC_bf4b7.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/riscv64-linux-gnu/openmpi/include -isystem /usr/lib/riscv64-linux-gnu/openmpi/include/openmpi -fPIE -o CMakeFiles/cmTC_bf4b7.dir/test_mpi.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-H36Z4u/test_mpi.c
+        Linking C executable cmTC_bf4b7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf4b7.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/riscv64-linux-gnu/openmpi/lib CMakeFiles/cmTC_bf4b7.dir/test_mpi.c.o -o cmTC_bf4b7  /usr/lib/riscv64-linux-gnu/libmpi.so 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-H36Z4u”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-AnAOrJ"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-AnAOrJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-AnAOrJ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fb0e9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fb0e9.dir/build.make CMakeFiles/cmTC_fb0e9.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-AnAOrJ”
+        Building C object CMakeFiles/cmTC_fb0e9.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/riscv64-linux-gnu/openmpi/include -isystem /usr/lib/riscv64-linux-gnu/openmpi/include/openmpi -fPIE -o CMakeFiles/cmTC_fb0e9.dir/test_mpi.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-AnAOrJ/test_mpi.c
+        Linking C executable cmTC_fb0e9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb0e9.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/riscv64-linux-gnu/openmpi/lib CMakeFiles/cmTC_fb0e9.dir/test_mpi.c.o -o cmTC_fb0e9  /usr/lib/riscv64-linux-gnu/libmpi.so 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-AnAOrJ”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:274 (find_package)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:323 (find_VTK)"
+      - "/usr/lib/riscv64-linux-gnu/cmake/pcl/PCLConfig.cmake:566 (find_external_library)"
+      - "CMakeLists.txt:7 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-lIhLEg"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-lIhLEg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/riscv64-linux-gnu/cmake/vtk-9.1;/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-lIhLEg'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1333c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1333c.dir/build.make CMakeFiles/cmTC_1333c.dir/build
+        gmake[1]: 进入目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-lIhLEg”
+        Building C object CMakeFiles/cmTC_1333c.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/riscv64-linux-gnu/openmpi/include -isystem /usr/lib/riscv64-linux-gnu/openmpi/include/openmpi -fPIE -o CMakeFiles/cmTC_1333c.dir/test_mpi.c.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-lIhLEg/test_mpi.c
+        Linking C executable cmTC_1333c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1333c.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/riscv64-linux-gnu/openmpi/lib CMakeFiles/cmTC_1333c.dir/test_mpi.c.o -o cmTC_1333c  /usr/lib/riscv64-linux-gnu/libmpi.so 
+        gmake[1]: 离开目录“/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-lIhLEg”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/usr/lib/cmake/pybind11/pybind11Common.cmake:276 (check_cxx_compiler_flag)"
+      - "/usr/lib/cmake/pybind11/pybind11Common.cmake:318 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "/usr/lib/cmake/pybind11/pybind11Common.cmake:385 (_pybind11_generate_lto)"
+      - "/usr/lib/cmake/pybind11/pybind11Config.cmake:250 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test HAS_FLTO"
+    directories:
+      source: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-ULxezB"
+      binary: "/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-ULxezB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/riscv64-linux-gnu/cmake/pcl/Modules"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAS_FLTO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-ULxezB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_35e49/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_35e49.dir/build.make CMakeFiles/cmTC_35e49.dir/build
+        gmake[1]: Entering directory '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-ULxezB'
+        Building CXX object CMakeFiles/cmTC_35e49.dir/src.cxx.o
+        /usr/bin/c++ -DHAS_FLTO  -std=gnu++14 -fPIE   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_35e49.dir/src.cxx.o -c /home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-ULxezB/src.cxx
+        Linking CXX executable cmTC_35e49
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35e49.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_35e49.dir/src.cxx.o -o cmTC_35e49  -flto 
+        gmake[1]: Leaving directory '/home/er/Desktop/cse/pointcloud_project/src/build/CMakeFiles/CMakeScratch/TryCompile-ULxezB'
+        
+      exitCode: 0
+...

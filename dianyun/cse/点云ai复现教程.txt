@@ -1,0 +1,25 @@
+点云复现教程
+0、搭建配置文件夹
+结构：
+C:\pointcloud_project\
+    data\
+        train\       ← 训练数据放到这里
+    src\
+        Dataset.py
+        build_dataloader.py(gpu版本)
+        build_dataloader2.py（cpu版本）
+
+1、创建一个虚拟环境
+例：
+python --version
+cd C:\pointcloud_project
+python -m venv .venv
+C:\pointcloud_project\.venv\Scripts\activate
+pip install --upgrade pip
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+如果没有gpu就装这个
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+有gpu装这个
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118        \\\\cu118的意思是cuda11.8版本根据自己版本修改
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+pip install numpy scikit-learn tqdm
