@@ -1,0 +1,18 @@
+{
+  "TEACH_POINTS_FILE": "teach_points.json",
+  "ROBOT_IP": "192.168.25.181",
+  "ROBOT_PORT": 9000,
+  "CALIBRATION_FILE": "calibration_params.json",
+  "CHUNK": 1024,
+  "FORMAT": 8,  
+  "CHANNELS": 1,
+  "RATE": 48000,
+  "AUDIO_BUFFER_SIZE": 10,
+  "YOLO_MODEL_PATH": "",
+  "CONFIDENCE_THRESHOLD": 0.9,
+  "OUTPUT_DIR": "contour_data",
+  "HISTORY_FRAMES": 5,
+  "MIN_CONTOUR_POINTS": 15,
+  "TARGET_POINTS": 200,
+  "SMOOTH_SIGMA": 1
+}
