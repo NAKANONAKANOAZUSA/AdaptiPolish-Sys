@@ -1,0 +1,1 @@
+from .melotts_api import MeloTTS as TtsModel
