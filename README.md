@@ -1,5 +1,7 @@
 # AdaptiPolish-Sys
+
 AdaptiPolish-Sys 是一个基于点云与深度学习的缺陷检测自动初磨系统，通过融合机械臂控制、计算机视觉和实时监控技术，实现自动化磨抛作业。系统支持工件轮廓识别、路径规划、打磨参数配置等功能，适用于3D打印件、木材等材料的表面处理的解决方案
+
 一.安装教程
 
 1.一键安装
@@ -64,9 +66,9 @@ pip install numpy scikit-learn tqdm
 
 3.搭建c++点云文件
 
-	1、创建一个pc_backend.cpp文件（具体看资料）
+	(1)、创建一个pc_backend.cpp文件
 	
-	2、创建一个CMakeLists.txt文件（具体看资料）			
+	(2)、创建一个CMakeLists.txt文件			
 
  命令行输入
  
