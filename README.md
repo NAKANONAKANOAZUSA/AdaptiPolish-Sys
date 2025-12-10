@@ -6,25 +6,34 @@ AdaptiPolish-Sys 是一个基于点云与深度学习的缺陷检测自动初磨
 
 1.一键安装
 
-<img width="539" height="53" alt="image" src="https://github.com/user-attachments/assets/925681db-6fca-4d8c-a537-ddf968fd41f3" />
+	cd MasterComputer
 
 2.创建虚拟环境
 
-<img width="558" height="310" alt="image" src="https://github.com/user-attachments/assets/8b9ca0ef-0d65-4bb4-831b-f694a4ed56b0" />
+	# Windows
+	python -m venv ap_env
+	ap_env\Scripts\activate
+	
+	# Linux
+	python3 -m venv ap_env
+	source ap_env/bin/activate
+
 
 3.安装上位机依赖库Python要求3.12
 
-<img width="551" height="69" alt="image" src="https://github.com/user-attachments/assets/6860a00c-2042-48c0-861d-8ed5217699a1" />
+	pip install -r requirements-MasterComputer.txt
 
 4.安装相机依赖库Python版本要求3.9
 
-<img width="551" height="54" alt="image" src="https://github.com/user-attachments/assets/cc02db3e-df0d-4f02-b80c-6babb496bb23" />
+	pip install -r requirements-Camera.txt
 
 5.或者直接使用打包好的虚拟环境 要求:(同架构同系统:Bianbu)
 
 6.特殊平台依赖
 
-<img width="551" height="102" alt="image" src="https://github.com/user-attachments/assets/03a4a5d1-7578-4f8c-b68b-383c57d29af1" />
+	# Ubuntu
+	sudo apt-get install portaudio19-dev libopenblas-dev
+	
 
 二.配置机械臂连接
 
@@ -42,7 +51,8 @@ AdaptiPolish-Sys 是一个基于点云与深度学习的缺陷检测自动初磨
 
 1.搭建配置文件夹架构
 
-例：C:\pointcloud_project\
+例：
+	C:\pointcloud_project\
 
     data\
 	
@@ -58,41 +68,37 @@ AdaptiPolish-Sys 是一个基于点云与深度学习的缺陷检测自动初磨
 
 2.点云必要的环境
 
-pip install --upgrade pip
+	pip install --upgrade pip
 
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+	pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
-pip install numpy scikit-learn tqdm
+	pip install numpy scikit-learn tqdm
 
 3.搭建c++点云文件
 
-	(1)、创建一个pc_backend.cpp文件
+(1)、创建一个pc_backend.cpp文件
 	
-	(2)、创建一个CMakeLists.txt文件			
+(2)、创建一个CMakeLists.txt文件			
 
  命令行输入
  
- cd ~/Desktop/cse/pointcloud_project/src（自定义路径）
+	 cd ~/Desktop/cse/pointcloud_project/src（自定义路径）
  
- rm -rf build
+ 	rm -rf build
  
- mkdir build
+ 	mkdir build
  
- cd build
+ 	cd build
  
- cmake ..
+ 	cmake ..
  
- make -j4
+ 	make -j4
  
  输入完成后会自动生成一个so文件，然后python中调用即可使用c++点云库
  
  启动系统
  
- python main.py
- 
-使用说明
-
-AdaptiPolish-Sys 使用说明
+ 	python main.py
 
 五.界面布局
 
