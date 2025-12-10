@@ -1,25 +1,25 @@
 # AdaptiPolish-Sys
 AdaptiPolish-Sys 是一个基于点云与深度学习的缺陷检测自动初磨系统，通过融合机械臂控制、计算机视觉和实时监控技术，实现自动化磨抛作业。系统支持工件轮廓识别、路径规划、打磨参数配置等功能，适用于3D打印件、木材等材料的表面处理的解决方案
 一.安装教程
-	1.一键安装
+1.一键安装
 <img width="539" height="53" alt="image" src="https://github.com/user-attachments/assets/925681db-6fca-4d8c-a537-ddf968fd41f3" />
-	2.创建虚拟环境：
+2.创建虚拟环境：
 <img width="558" height="310" alt="image" src="https://github.com/user-attachments/assets/8b9ca0ef-0d65-4bb4-831b-f694a4ed56b0" />
-	3.安装上位机依赖库Python要求3.12：
+3.安装上位机依赖库Python要求3.12：
 <img width="551" height="69" alt="image" src="https://github.com/user-attachments/assets/6860a00c-2042-48c0-861d-8ed5217699a1" />
-	4.安装相机依赖库Python版本要求3.9：
+4.安装相机依赖库Python版本要求3.9：
 <img width="551" height="54" alt="image" src="https://github.com/user-attachments/assets/cc02db3e-df0d-4f02-b80c-6babb496bb23" />
-	5.或者直接使用打包好的虚拟环境 要求:(同架构同系统:Bianbu)
-	6.特殊平台依赖：
+5.或者直接使用打包好的虚拟环境 要求:(同架构同系统:Bianbu)
+6.特殊平台依赖：
 <img width="551" height="102" alt="image" src="https://github.com/user-attachments/assets/03a4a5d1-7578-4f8c-b68b-383c57d29af1" />
-配置机械臂连接
+二.配置机械臂连接
 1.	通过串口或网口连接到MyCobot 280到电脑
-配置相机服务
+三.配置相机服务
 1.	通过网口连接到相机
 2.	打开CameraService.py 修改 python_path 的值为实际Python3.9的路径
 3.	启动CameraService服务
-点云c++部署
-一、搭建配置文件夹架构
+四.点云c++部署
+1.搭建配置文件夹架构
 例：C:\pointcloud_project\
     data\
         train\       ← 训练数据放到这里
@@ -28,25 +28,25 @@ AdaptiPolish-Sys 是一个基于点云与深度学习的缺陷检测自动初磨
         build_dataloader.py(gpu版本)
         build_dataloader2.py（cpu版本）
 
-二、点云必要的环境
+2.点云必要的环境
 pip install --upgrade pip
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip install numpy scikit-learn tqdm
 
-三、搭建c++点云文件
+3.搭建c++点云文件
 	1、创建一个pc_backend.cpp文件（具体看资料）
 	2、创建一个CMakeLists.txt文件（具体看资料）			
 
-命令行输入
-cd ~/Desktop/cse/pointcloud_project/src（自定义路径）
-rm -rf build
-mkdir build
-cd build
-cmake ..
-make -j4
-输入完成后会自动生成一个so文件，然后python中调用即可使用c++点云库
-启动系统
-python main.py
+ 命令行输入
+ cd ~/Desktop/cse/pointcloud_project/src（自定义路径）
+ rm -rf build
+ mkdir build
+ cd build
+ cmake ..
+ make -j4
+ 输入完成后会自动生成一个so文件，然后python中调用即可使用c++点云库
+ 启动系统
+ python main.py
 使用说明
 AdaptiPolish-Sys 使用说明
 一、界面布局
