@@ -1,22 +1,37 @@
 # AdaptiPolish-Sys
 AdaptiPolish-Sys 是一个基于点云与深度学习的缺陷检测自动初磨系统，通过融合机械臂控制、计算机视觉和实时监控技术，实现自动化磨抛作业。系统支持工件轮廓识别、路径规划、打磨参数配置等功能，适用于3D打印件、木材等材料的表面处理的解决方案
 一.安装教程
+
 1.一键安装
+
 <img width="539" height="53" alt="image" src="https://github.com/user-attachments/assets/925681db-6fca-4d8c-a537-ddf968fd41f3" />
-2.创建虚拟环境：
+2.创建虚拟环境
+
 <img width="558" height="310" alt="image" src="https://github.com/user-attachments/assets/8b9ca0ef-0d65-4bb4-831b-f694a4ed56b0" />
-3.安装上位机依赖库Python要求3.12：
+
+3.安装上位机依赖库Python要求3.12
+
 <img width="551" height="69" alt="image" src="https://github.com/user-attachments/assets/6860a00c-2042-48c0-861d-8ed5217699a1" />
-4.安装相机依赖库Python版本要求3.9：
+
+4.安装相机依赖库Python版本要求3.9
+
 <img width="551" height="54" alt="image" src="https://github.com/user-attachments/assets/cc02db3e-df0d-4f02-b80c-6babb496bb23" />
+
 5.或者直接使用打包好的虚拟环境 要求:(同架构同系统:Bianbu)
-6.特殊平台依赖：
+6.特殊平台依赖
+
 <img width="551" height="102" alt="image" src="https://github.com/user-attachments/assets/03a4a5d1-7578-4f8c-b68b-383c57d29af1" />
+
 二.配置机械臂连接
+
 1.	通过串口或网口连接到MyCobot 280到电脑
+		
 三.配置相机服务
+
 1.	通过网口连接到相机
+
 2.	打开CameraService.py 修改 python_path 的值为实际Python3.9的路径
+
 3.	启动CameraService服务
 四.点云c++部署
 1.搭建配置文件夹架构
