@@ -109,6 +109,9 @@ AdaptiPolish-Sys 是一个基于点云与深度学习的缺陷检测自动初磨
 2.	中间区域：示教点管理、打磨控制和运动控制
 
 3.	右侧区域：摄像头设置、机器人连接和辅助功能
+
+<img width="1920" height="1048" alt="主界面" src="https://github.com/user-attachments/assets/63966602-38b9-49b0-868b-7293d5ab536e" />
+
 	
 六.连接机器人
 
@@ -117,6 +120,9 @@ AdaptiPolish-Sys 是一个基于点云与深度学习的缺陷检测自动初磨
 2.	在右侧"机器人连接"区域输入IP地址（默认：192.168.25.181）和端口（默认：9000）
 
 3.	点击"连接机器人"按钮
+
+<img width="1920" height="1048" alt="链接机器人" src="https://github.com/user-attachments/assets/2d85b542-21cf-4d12-8ce4-bc2b110019f2" />
+
 
 4.	连接成功后状态指示灯变为绿色
 
@@ -137,8 +143,14 @@ o	加载ONNX模型文件（点击"加载"按钮）
 3.	将两个ArUco标记放置在相机视野内（相距220mm）
 	
 4.	系统自动完成标定后显示"标定成功"
+
+<img width="1920" height="1048" alt="连接摄像头" src="https://github.com/user-attachments/assets/69c08048-1c96-43de-8126-8f4af3272267" />
+
 	
 5.	点击获取点云数据按钮，系统会自动调用3D相机扫描点云，与标准工件进行对比检测缺陷，返回缺陷点坐标信息
+
+<img width="1920" height="1048" alt="点云设置" src="https://github.com/user-attachments/assets/01e132a6-6b88-46b7-99a1-27ea55345817" />
+
 	
 6.	3D相机标定矩阵已集成在系统内部，返回缺陷点的坐标会自动转换
 	
@@ -157,6 +169,9 @@ o	点击"保存当前位置"按钮
 o	选择点位后点击"移动到选定点"进行定位
 
 o	点击"删除选定点"移除不需要的点位
+
+<img width="1920" height="1048" alt="视角点管理" src="https://github.com/user-attachments/assets/532f1e87-2395-4b54-86df-fd13d34d708a" />
+
 
 九.轮廓识别与打磨
 
@@ -180,6 +195,9 @@ o	点击"应用参数"确认设置
  
 1.	在右侧区域点击"手动控制"按钮
 
+<img width="1920" height="1048" alt="启动手动控制" src="https://github.com/user-attachments/assets/f69a309c-a52e-4a3d-84a5-a30c17f17636" />
+
+
 2.	在弹出的对话框中：
 
 o	使能/放松各关节
@@ -188,9 +206,15 @@ o	启用/禁用自由移动模式
 
 o	保存当前位置为示教点
 
+<img width="506" height="728" alt="手动控制" src="https://github.com/user-attachments/assets/6565b31b-2f94-4449-a6f4-e0c0f5cafe22" />
+
+
 十一.电机控制
 
 1.	在右侧区域点击"电机控制"按钮
+
+<img width="1920" height="1048" alt="启动电机控制" src="https://github.com/user-attachments/assets/90451a36-3d50-4c38-b163-83b6f0d35460" />
+
 	
 2.	在弹出的对话框中：
 	
@@ -199,6 +223,9 @@ o	点击"连接电机"建立连接
 o	使用按钮控制电机启停、正反转
 
 o	通过滑块设置电机转速（0-500）
+
+<img width="406" height="466" alt="电机控制" src="https://github.com/user-attachments/assets/63aa3040-0fd1-47c0-8ddf-676b6aa2c121" />
+
 
 十二.坐标移动
  
@@ -218,3 +245,4 @@ o	通过滑块设置电机转速（0-500）
 	
 2.	系统将自动执行渐进式多层打磨  
 
+<img width="1920" height="1048" alt="打磨控制" src="https://github.com/user-attachments/assets/cbc41cdb-6ee4-47d2-a9f7-7743196dc7ca" />
