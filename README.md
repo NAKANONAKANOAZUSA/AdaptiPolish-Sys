@@ -252,3 +252,11 @@ o	通过滑块设置电机转速（0-500）
 
 <img width="1920" height="1048" alt="执行控制" src="https://github.com/user-attachments/assets/0c617277-f5eb-4877-a517-f58d6dbe0455" />
 
+十四.虚拟环境
+
+一直push不进仓库，所以放在网盘下了o(TヘTo)
+
+通过网盘分享的文件：venvMasterComputer.7z
+
+链接: https://pan.baidu.com/s/1NTiiQDvPTQGQCAXc88vbuA?pwd=1234 提取码: 1234
+
