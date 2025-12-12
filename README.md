@@ -236,6 +236,9 @@ o	通过滑块设置电机转速（0-500）
 3.	勾选"启用角度修正"（推荐）
 	
 4.	点击"移动"按钮执行定位
+
+<img width="1920" height="1048" alt="运动控制" src="https://github.com/user-attachments/assets/ef823558-c823-44eb-92f1-08054d771ac2" />
+
 	
 十三.高级功能
 
@@ -246,3 +249,6 @@ o	通过滑块设置电机转速（0-500）
 2.	系统将自动执行渐进式多层打磨  
 
 <img width="1920" height="1048" alt="打磨控制" src="https://github.com/user-attachments/assets/cbc41cdb-6ee4-47d2-a9f7-7743196dc7ca" />
+
+<img width="1920" height="1048" alt="执行控制" src="https://github.com/user-attachments/assets/0c617277-f5eb-4877-a517-f58d6dbe0455" />
+
