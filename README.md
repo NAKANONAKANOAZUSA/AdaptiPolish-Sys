@@ -265,6 +265,9 @@ o	通过滑块设置电机转速（0-500）
 | 扩展坞                | 用来拓展接口，建议多口与USB3.0 |
 | 嘲风 Pro 3D相机       | 3D相机                         |
 
+<img width="816" height="938" alt="image" src="https://github.com/user-attachments/assets/d4ddd8a0-7b44-4abf-83a5-4650702eff08" />
+
+
 十五.虚拟环境
 
 一直push不进仓库，所以放在网盘下了o(TヘTo)
