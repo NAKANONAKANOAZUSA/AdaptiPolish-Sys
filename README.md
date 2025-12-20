@@ -52,19 +52,17 @@ AdaptiPolish-Sys 是一个基于点云与深度学习的缺陷检测自动初磨
 1.搭建配置文件夹架构
 
 例：
-	C:\pointcloud_project\
 
-    data\
-	
-        train\       ← 训练数据放到这里
-		
-    src\				← 运行文件放到这里
-	
-        Dataset.py
-		
-        build_dataloader.py(gpu版本)
-		
-        build_dataloader2.py（cpu版本）
+```text
+C:\pointcloud_project\
+├── data\
+│   └── train\        ← 训练数据放到这里
+└── src\              ← 运行文件放到这里
+    ├── Dataset.py
+    ├── build_dataloader.py   (gpu版本)
+    └── build_dataloader2.py （cpu版本）
+```
+
 
 2.点云必要的环境
 
